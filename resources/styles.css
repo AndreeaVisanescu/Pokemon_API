@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+/*  ------ First page ------ */
+.body-wrapper1 { 
+    background-image: url("../assets/Background1.jpeg");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.sidebar {
+    position: fixed;
+    width: 10%;
+    height: 750px;
+    background-color: #030107;
+    font-size: 20px;
+}
+.logo-wrapper {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    padding-top: 20px;
+}
+.logo-wrapper img {
+  width: 100%;
+}
+.logo-wrapper #pokeball {
+  width: 50px;
+  margin-left: 30%; 
+}
+#pokeball:hover {
+  transform: rotate(180deg) scale(1.1);
+  transition: 3s;
+}
+.nav a{
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 20%;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Yeon Sung', cursive;
+}
+.nav a:hover{
+  color: rgb(203, 172, 231);
+} 
+#play {
+  position: absolute;
+  left: 43%;
+  top:65%;
+  height: 120px;
+  width: 150px;
+  cursor: pointer;
+}
+#play iframe {
+  height: 100%;
+}
+  
+/* ----- Second Page ----- */
+  
+body { 
+  background-image: url("../assets/Background2.png");
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  color: white; 
+}
+header, .search {
+  width: 600px;
+  margin-left: 10%;
+}
+.card {
+  position: absolute;
+  border: 7px solid #dfdfdfd2;
+  background-image: url("../assets/Quarry\ Depths\ -\ Teal\ -\ DIGITAL\ PRINT3.jpeg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #030107;
+  height: 450px;
+  width: 300px;
+  padding: 0px 10px 20px 10px;
+  left: 24%;
+  bottom: 3%;
+  text-align: center;
+  border-radius: 10%;
+  font-family: 'Carter One', cursive;
+}
+#image:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+.card li {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: 'Yeon Sung', cursive;
+}
+.card > #h1:hover {
+  color: rgb(70, 8, 95);
+}
+.card ul {
+  padding-top: 12px;
+  font-weight: bold;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-family: 'Yeon Sung', cursive;
+}
+.title {
+  text-align: center;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 40px;
+  background: -webkit-linear-gradient(#eee, rgb(60, 177, 142));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+button {
+  cursor: pointer;
+  background: transparent;
+  margin: 0 0 0 0px;
+  border: none;
+  width: auto;
+  position: absolute;
+}
+
+#form-id div{
+  display: inline-block;
+  margin-right: 20px;
+}
+.logo-pika {
+  margin: 20px;
+  position: absolute;
+  color: rgba(124, 241, 241, 0.5);
+}
+.logo-pika > img {
+  display: flex;
+  margin-left: -7px;
+  height: 50px;
+  position: absolute;  
+}
+.left-card {
+  position: absolute;
+  border-radius: 10%;
+  height: 450px;
+  width: 300px;
+  background-image: url("../assets/back-card.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #030107;
+  bottom: 6%;
+  left: 12%;
+}
+.right-card {
+  position: absolute;
+  border-radius: 10%;
+  height: 450px;
+  width: 300px;
+  background-image: url("../assets/back-card.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #030107;
+  bottom: 6%;
+  right: 43%;
+}
+

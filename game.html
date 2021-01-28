@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    
+    <meta name="description" content="pokemon">
+    <meta name="keywords" content="pokemon">
+    <meta name="author" content="Andreea Visanescu">
+    <link rel="stylesheet" href="./resources/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Yeon+Sung&display=swap" rel="stylesheet"> <!-- font-family: 'Yeon Sung', cursive;-->
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Luckiest+Guy&family=Yusei+Magic&display=swap" rel="stylesheet"> <!-- font-family: 'Carter One', cursive;-->
+    
+</head>
+<body>
+    <a class="logo-pika" href="./index.html"><img src="./assets/pikachu_gif.gif" alt="pokemon-logo"></a>
+    <header>
+        <div class="title"> Let the magic begin!</div>
+    </header>
+        
+        <div class="search">
+            <form id="form-id" method="POST" action="">
+                <div>
+                    <label for="pokemon">Choose pokemon by id:</label> <br>
+                    <input type="number" onfocus="this.value=''" name="pokemon id" id="search" placeholder="Ex: 10" value=""/>
+                </div>
+
+                <div>
+                    <label for="pokemon">Choose pokemon by name:</label> <br>
+                    <input type="text" onfocus="this.value=''" name="pokemon name" id="search2" placeholder="Ex: pikachu" value=""/>
+                </div>
+                
+                <button type="button" id="submit"><img src="./assets/pokeball_gif.gif" alt="pokeball-photo" style="height: 50px; width: 50px;"></button>
+            </form>  
+        </div>
+
+        
+        <div class="left-card"></div>
+        <div class="right-card"></div>
+
+        <div class="card">
+            <h1 id="h1"></h1>
+            <img id="image" src="" width="200px">
+            <ul id="ul_list">
+                <li id="li_1"></li>
+                <li id="li_2"></li>
+                <li id="li_3"></li>
+                <li id="li_4"></li>
+                <li id="li_5"></li>
+            </ul>
+        </div>
+
+    <footer>
+        <script src="./resources/app.js"></script>
+    </footer>
+</body>
+</html>
